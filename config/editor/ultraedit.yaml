@@ -1,0 +1,8 @@
+name: ultraedit
+lr: 1e-6
+batch_size: 128
+token: ans
+cache_dir: cache
+save_checkpoint: False
+load_checkpoint: False
+# n_test: 10

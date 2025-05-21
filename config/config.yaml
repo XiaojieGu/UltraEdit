@@ -1,0 +1,13 @@
+defaults:
+- _self_
+- dataset: zsre
+- model: llama-3-instruct
+- editor: ultraedit
+num_seq: 200
+model_device: cuda:0
+editor_device: cuda:0
+
+# save: False
+
+model_cache: False
+model_cache_dir: ''

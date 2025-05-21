@@ -1,0 +1,6 @@
+name: ultraeditbench
+n_edits: 100
+batch_size: 10
+train_path: data/raw/ultraeditbench/UltraEditBench_train_20k.json
+valid_path: data/raw/ultraeditbench/UltraEditBench_2M.json
+num_seq: 200

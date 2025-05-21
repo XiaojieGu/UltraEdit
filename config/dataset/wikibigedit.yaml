@@ -1,0 +1,7 @@
+name: wikibigedit
+n_edits: 100
+batch_size: 10
+train_path: data/raw/wikibigedit/wikibigedit_train_17k.json
+valid_path: data/raw/wikibigedit/wikibigedit_eval_17k.json
+num_seq: 170
+eval_mhop: True

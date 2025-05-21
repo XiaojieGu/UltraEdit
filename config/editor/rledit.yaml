@@ -1,0 +1,17 @@
+name: rledit
+rank: 1024
+n_blocks: 4
+lr: 1e-6
+meta_lr: 1e-5
+loc_coef: 0.6
+max_grad_norm: 1
+n_epochs: 1
+batch_size: 128
+token: ans
+cache_dir: cache
+save_checkpoint: False
+load_checkpoint: False
+n_test: 10
+reg_coef: 1e-4
+time_decay: 0.95
+back_depth: 10
