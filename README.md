@@ -45,21 +45,7 @@ python main.py dataset=zsre model=mistral-7b editor=ultraedit num_seq=200 \ # Nu
 
 1️⃣ Download the files from [Google Drive](https://drive.google.com/drive/folders/1wsxG5Ybf6hT9QUlccvzTuJSfL_TFNyKQ?usp=sharing) and place them under `UltraEdit/data/raw`.
 
-2️⃣ Download the [UltraEditBench dataset from Hugging Face](https://huggingface.co/datasets/XiaojieGu/UltraEditBench) and save it under `UltraEdit/data/raw/ultraeditbench` with the following script:
-
-```python
-from datasets import load_dataset
-import os, json
-
-dataset = load_dataset("XiaojieGu/UltraEditBench", split="train")
-os.makedirs("data/raw/ultraeditbench", exist_ok=True)
-
-with open("data/raw/ultraeditbench/UltraEditBench_2M.json", "w", encoding="utf-8") as f:
-    for item in dataset:
-        f.write(json.dumps(item, ensure_ascii=False) + "\n")
-```
-
-
+2️⃣ Download the [UltraEditBench dataset from Hugging Face](https://huggingface.co/datasets/XiaojieGu/UltraEditBench) and save it under `UltraEdit/data/raw/ultraeditbench`.
 
 
 
