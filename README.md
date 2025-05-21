@@ -9,6 +9,43 @@
 ## 🔥 News
 * **`2025.05`** 🌟 We released the paper [UltraEdit: Training-, Subject-, and Memory-Free Lifelong Editing in Large Language Models](https://arxiv.org/abs/2505.14679).
 
+
+
+## 🚀 Setup
+
+Create the environment and install dependencies:
+
+```bash
+conda create -n ultraedit python=3.10 -y
+conda activate ultraedit
+pip install torch==2.3.0+cu121 --index-url https://download.pytorch.org/whl/cu121
+pip install -r requirements.txt
+```
+
+
+
+## 📦 Data Preparation
+
+1️⃣ Download the files from [Google Drive](https://drive.google.com/drive/folders/1wsxG5Ybf6hT9QUlccvzTuJSfL_TFNyKQ?usp=sharing) and place them under `UltraEdit/data/raw`.
+
+2️⃣ Download the [UltraEditBench dataset from Hugging Face](https://huggingface.co/datasets/XiaojieGu/UltraEditBench) and save it under `UltraEdit/data/raw/ultraeditbench` with the following script:
+
+```python
+from datasets import load_dataset
+import os, json
+
+dataset = load_dataset("XiaojieGu/UltraEditBench", split="train")
+os.makedirs("data/raw/ultraeditbench", exist_ok=True)
+
+with open("data/raw/ultraeditbench/UltraEditBench_2M.json", "w", encoding="utf-8") as f:
+    for item in dataset:
+        f.write(json.dumps(item, ensure_ascii=False) + "\n")
+```
+
+
+
+
+
 ## 🌟 Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=XiaojieGu/UltraEdit&type=Date)](https://star-history.com/#XiaojieGu/UltraEdit&Date)
