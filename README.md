@@ -1,13 +1,23 @@
 
 <div align="center">
 <h2><a href="https://arxiv.org/abs/2505.14679" style="color:#68edcb">UltraEdit: Training-, Subject-, and Memory-Free Lifelong Editing in Large Language Models</a></h2>
-        If our project helps you, please give us a star ⭐ on GitHub to support us. 🙏🙏
+        If our project helps you, please give us a star ⭐ on GitHub to support us. 😉😉
         
 [![arXiv](https://img.shields.io/badge/arXiv-2505.14679-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2505.14679) 
 </div>
 
 ## 🔥 News
 * **`2025.05`** 🌟 We released the paper [UltraEdit: Training-, Subject-, and Memory-Free Lifelong Editing in Large Language Models](https://arxiv.org/abs/2505.14679).
+
+
+
+
+
+## 📦 Data Preparation
+
+1️⃣ Download the files from [Google Drive](https://drive.google.com/drive/folders/1wsxG5Ybf6hT9QUlccvzTuJSfL_TFNyKQ?usp=sharing) and place them under `UltraEdit/data/raw`.
+
+2️⃣ Download the [UltraEditBench dataset from Hugging Face](https://huggingface.co/datasets/XiaojieGu/UltraEditBench) and save it under `UltraEdit/data/raw/ultraeditbench`.
 
 
 
@@ -41,12 +51,20 @@ python main.py dataset=zsre model=mistral-7b editor=ultraedit num_seq=200 \ # Nu
 ```
 
 
-## 📦 Data Preparation
 
-1️⃣ Download the files from [Google Drive](https://drive.google.com/drive/folders/1wsxG5Ybf6hT9QUlccvzTuJSfL_TFNyKQ?usp=sharing) and place them under `UltraEdit/data/raw`.
+## 🙏 Acknowledgements
 
-2️⃣ Download the [UltraEditBench dataset from Hugging Face](https://huggingface.co/datasets/XiaojieGu/UltraEditBench) and save it under `UltraEdit/data/raw/ultraeditbench`.
+Our work builds upon several excellent model editing frameworks. We sincerely thank the authors of the following projects for their contributions to the field:
 
+- [EasyEdit](https://github.com/zjunlp/EasyEdit/tree/main)
+
+- [MALMEN](https://github.com/ChenmienTan/malmen)
+
+- [AlphaEdit](https://github.com/jianghoucheng/AlphaEdit)
+
+- [RLEdit](https://github.com/zhrli324/RLEdit)
+
+  
 
 
 ## 🌟 Star History
