@@ -16,5 +16,13 @@
 ## 📑 Citation
 If you find UltraEdit useful for your research and applications, please cite using this BibTeX:
 ```bibtex
-
+@misc{Gu2025UltraEdit,
+      title={UltraEdit: Training-, Subject-, and Memory-Free Lifelong Editing in Large Language Models}, 
+      author={Xiaojie Gu and Guangxu Chen and Jungang Li and Jia-Chen Gu and Xuming Hu and Kai Zhang},
+      year={2025},
+      eprint={2505.14679},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.14679}, 
+}
 ```
