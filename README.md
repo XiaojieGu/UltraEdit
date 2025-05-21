@@ -74,6 +74,13 @@ Our work builds upon several excellent model editing frameworks. We sincerely th
 [![Star History Chart](https://api.star-history.com/svg?repos=XiaojieGu/UltraEdit&type=Date&width=600&height=300)](https://star-history.com/#XiaojieGu/UltraEdit&Date)
 
 
+
+
+## 📫 Contact
+
+For any inquiries, please reach out to **peettherapynoys@gmail.com**.
+
+
 ## 📑 Citation
 If you find UltraEdit useful for your research and applications, please cite using this BibTeX:
 ```bibtex
