@@ -33,12 +33,11 @@ sh run.sh
 The `run.sh` script includes a sample command like:
 
 ```
-python main.py dataset=zsre model=mistral-7b editor=ultraedit num_seq=200 \
+python main.py dataset=zsre model=mistral-7b editor=ultraedit num_seq=200 \ # Number of turns
     editor.cache_dir=cache \
     dataset.batch_size=10 \
-    dataset.n_edits=100 \
+    dataset.n_edits=100 \ # Number of edits per turn
     model.edit_modules="[model.layers.29.mlp.down_proj, model.layers.30.mlp.down_proj]"
-
 ```
 
 
