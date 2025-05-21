@@ -71,7 +71,7 @@ Our work builds upon several excellent model editing frameworks. We sincerely th
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=XiaojieGu/UltraEdit&type=Date&width=600&height=300)](https://star-history.com/#XiaojieGu/UltraEdit&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=XiaojieGu/UltraEdit&type=Date&width=400&height=200)](https://star-history.com/#XiaojieGu/UltraEdit&Date)
 
 
 
