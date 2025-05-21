@@ -2,7 +2,6 @@ name_or_path: ypur/path/Llama-3-8b
 name: llama-3-instruct
 model_vec_size: 18432
 class_name: AutoModelForCausalLM
-bit: 0
 edit_modules:
 # zsre wiki ultraeditbench
 - model.layers.11.mlp.gate_proj
