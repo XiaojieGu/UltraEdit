@@ -48,7 +48,8 @@ with open("data/raw/ultraeditbench/UltraEditBench_2M.json", "w", encoding="utf-8
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=XiaojieGu/UltraEdit&type=Date)](https://star-history.com/#XiaojieGu/UltraEdit&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=XiaojieGu/UltraEdit&type=Date&width=600&height=300)](https://star-history.com/#XiaojieGu/UltraEdit&Date)
+
 
 ## 📑 Citation
 If you find UltraEdit useful for your research and applications, please cite using this BibTeX:
