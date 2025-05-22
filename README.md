@@ -35,7 +35,7 @@ conda activate ultraedit
 pip install torch==2.3.0+cu121 --index-url https://download.pytorch.org/whl/cu121
 pip install -r requirements.txt
 ```
-💡 If you want to try editing a 7B model, even a **24GB consumer GPU** is enough — model editing for everyone!
+💡 If you want to try editing a Mistral-7B model, even a **24GB consumer GPU** is enough — model editing for everyone!
 
 ## 🧪 Run
 
