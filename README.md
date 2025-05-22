@@ -17,7 +17,7 @@
 
 1️⃣ Download the files from [Google Drive](https://drive.google.com/drive/folders/1wsxG5Ybf6hT9QUlccvzTuJSfL_TFNyKQ?usp=sharing) and place them under `UltraEdit/data/raw`.
 
-2️⃣ Download the [UltraEditBench dataset](https://huggingface.co/datasets/XiaojieGu/UltraEditBench) and save it under `UltraEdit/data/raw/ultraeditbench`.
+2️⃣ Download the [UltraEditBench](https://huggingface.co/datasets/XiaojieGu/UltraEditBench) and save it under `UltraEdit/data/raw/ultraeditbench`.
 
 3️⃣ Specify the path to model weights by setting the `name_or_path` field in `UltraEdit/config/model/model.yaml`.
 
