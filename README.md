@@ -53,6 +53,7 @@ python main.py dataset=zsre model=mistral-7b editor=ultraedit num_seq=200 \ # Nu
     dataset.n_edits=100 \ # Number of edits per turn
     model.edit_modules="[model.layers.29.mlp.down_proj, model.layers.30.mlp.down_proj]"
 ```
+💡 Just try editing **20K samples** on Mistral-7B in **under 5 minutes** — ultra-efficient!
 
 
 
