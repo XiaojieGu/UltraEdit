@@ -7,7 +7,8 @@
 </div>
 
 ## 🔥 News
-* **`2025.05`** 🌟 We released the paper [UltraEdit: Training-, Subject-, and Memory-Free Lifelong Editing in Large Language Models](https://arxiv.org/abs/2505.14679).
+* **`2025.05`** 🌟 We released our paper *UltraEdit: Training-, Subject-, and Memory-Free Lifelong Editing in Large Language Models* — 📖 [Read on arXiv](https://arxiv.org/abs/2505.14679) | 🤗 [Explore UltraEditBench Dataset](https://huggingface.co/datasets/XiaojieGu/UltraEditBench)
+
 
 
 
