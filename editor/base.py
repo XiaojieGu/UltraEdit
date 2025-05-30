@@ -103,9 +103,8 @@ class BaseEditor:
 
 
     def train(self, loader: DataLoader, save=False):
-        """
-        training method for MEND and MALMEN.
-        """
+
+        
         max_steps = self.config.num_seq
 
         limited_loader = loader
@@ -155,9 +154,8 @@ class BaseEditor:
 
 
     def sequential_valid(self, loader: DataLoader):
-        """
-        Valid the entire knowledge sequence, with just final results showed.
-        """
+
+        
 
         max_steps = self.config.num_seq
         limited_loader = islice(loader, max_steps)
@@ -231,11 +229,8 @@ class BaseEditor:
         wandb.log(final_results)
 
     def run(self, train_loader: DataLoader, valid_loader: DataLoader):
-        """
-        Use MEND or MALMEN to complete sequential editing task.
-        Just train the hypernet on the original LLM, then freeze it.
-        """
 
+        
         for _ in range(self.config.editor.n_epochs):
 
             self.train(train_loader)
