@@ -130,6 +130,7 @@ python main.py dataset=zsre model=mistral-7b editor=ultraedit num_seq=200 \
 #     dataset.batch_size=10 \
 #     dataset.n_edits=100 \
 #     dataset.valid_path=./data/raw/wikibigedit/wikibigedit.json \
+#     dataset.eval_mhop=False \
 #     model.edit_modules="[language_model.model.layers.52.mlp.gate_proj, language_model.model.layers.53.mlp.gate_proj, language_model.model.layers.54.mlp.gate_proj, language_model.model.layers.55.mlp.gate_proj, language_model.model.layers.56.mlp.gate_proj, language_model.model.layers.57.mlp.gate_proj, language_model.model.layers.58.mlp.gate_proj, language_model.model.layers.59.mlp.gate_proj, language_model.model.layers.60.mlp.gate_proj, language_model.model.layers.52.mlp.up_proj, language_model.model.layers.53.mlp.up_proj, language_model.model.layers.54.mlp.up_proj, language_model.model.layers.55.mlp.up_proj, language_model.model.layers.56.mlp.up_proj, language_model.model.layers.57.mlp.up_proj, language_model.model.layers.58.mlp.up_proj, language_model.model.layers.59.mlp.up_proj, language_model.model.layers.60.mlp.up_proj]" \
 
 # python main.py dataset=ultraeditbench model=gemma-3-27b editor=ultraedit num_seq=10000 \
