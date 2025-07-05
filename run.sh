@@ -1,14 +1,3 @@
-#!/bin/bash
-
-#SBATCH --partition=debug 
-
-#SBATCH --nodes=1
-
-#SBATCH --gres=gpu:1
-
-# unset CUDA_VISIBLE_DEVICES
-
-
 ######################################  llama3  ###################################################
 
 # python main.py dataset=zsre model=llama-3-instruct editor=ultraedit num_seq=200 \
