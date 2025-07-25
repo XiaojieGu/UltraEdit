@@ -102,7 +102,6 @@ python main.py dataset=zsre model=mistral-7b editor=ultraedit num_seq=200 \
 #     editor.cache_dir=cache \
 #     dataset.batch_size=10 \
 #     dataset.n_edits=100 \
-#     model.name_or_path=/hpc2hdd/JH_DATA/share/jchen024/PrivateShareGroup/chenguangxu/chenguangxu/EasyEdit-main/hugging_cache/Qwen2.5-7B-Instruct \
 #     model.edit_modules="[model.layers.19.mlp.up_proj, model.layers.20.mlp.up_proj, model.layers.21.mlp.up_proj, model.layers.22.mlp.up_proj, model.layers.23.mlp.up_proj, model.layers.24.mlp.up_proj, model.layers.25.mlp.up_proj, model.layers.26.mlp.up_proj, model.layers.19.mlp.gate_proj, model.layers.20.mlp.gate_proj, model.layers.21.mlp.gate_proj, model.layers.22.mlp.gate_proj, model.layers.23.mlp.gate_proj, model.layers.24.mlp.gate_proj, model.layers.25.mlp.gate_proj, model.layers.26.mlp.gate_proj]" \
 
 # python main.py dataset=ultraeditbench model=qwen2.5-7b editor=ultraedit num_seq=200 \
