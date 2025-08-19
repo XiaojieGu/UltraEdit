@@ -60,7 +60,7 @@ python main.py dataset=zsre model=mistral-7b editor=ultraedit num_seq=200 \ # Nu
 
 ## 🙏 Acknowledgements
 
-Our work builds upon several excellent model editing frameworks. We sincerely thank the authors of [EasyEdit](https://github.com/zjunlp/EasyEdit/tree/main), [MALMEN](https://github.com/ChenmienTan/malmen), [AlphaEdit](https://github.com/jianghoucheng/AlphaEdit), and [RLEdit](https://github.com/zhrli324/RLEdit) for their valuable contributions to the field.
+Our work builds upon several excellent model editing frameworks. We sincerely thank the authors of [RLEdit](https://github.com/zhrli324/RLEdit) for their valuable contributions to the field.
 
 
 
