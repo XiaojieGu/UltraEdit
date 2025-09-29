@@ -7,7 +7,7 @@
 </div>
 
 ## 🔥 News
-* **`2025.05`** 🌟 We released our paper *UltraEdit: Training-, Subject-, and Memory-Free Lifelong Editing in Large Language Models* — 📖 [UltraEdit on arXiv](https://arxiv.org/abs/2505.14679) | 🤗 [UltraEditBench on HuggingFace](https://huggingface.co/datasets/XiaojieGu/UltraEditBench).
+* **`2025.05`** 🌟 We released our paper *UltraEdit: Training-, Subject-, and Memory-Free Lifelong Editing in Large Language Models* — 📖 [UltraEdit on arXiv](https://arxiv.org/abs/2505.14679v2) | 🤗 [UltraEditBench on HuggingFace](https://huggingface.co/datasets/XiaojieGu/UltraEditBench).
 
 
 
@@ -82,10 +82,13 @@ For any inquiries or possible collaboration, feel free to reach out at **peetthe
 ## 📑 Citation
 If you find UltraEdit useful for your research and applications, please cite using this BibTeX:
 ```bibtex
-@article{gu2025ultraedit,
-  title={UltraEdit: Training-, Subject-, and Memory-Free Lifelong Editing in Large Language Models},
-  author={Gu, Xiaojie and Chen, Guangxu and Li, Jungang and Gu, Jia-Chen and Hu, Xuming and Zhang, Kai},
-  journal={arXiv preprint arXiv:2505.14679},
-  year={2025}
+@misc{gu2025ultraedittrainingsubjectmemoryfree,
+      title={UltraEdit: Training-, Subject-, and Memory-Free Lifelong Editing in Language Models}, 
+      author={Xiaojie Gu and Ziying Huang and Jia-Chen Gu and Kai Zhang},
+      year={2025},
+      eprint={2505.14679},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.14679}, 
 }
 ```
