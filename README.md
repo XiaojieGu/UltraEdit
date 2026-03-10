@@ -6,8 +6,10 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2505.14679-b31b1b.svg?style=plastic)](https://arxiv.org/pdf/2505.14679) 
 </div>
 
+<!--
 ## 🔥 News
 * **`2025.05`** 🌟 We released our paper *UltraEdit: Training-, Subject-, and Memory-Free Lifelong Editing in Language Models* — 📖 [UltraEdit on arXiv](https://arxiv.org/pdf/2505.14679) | 🤗 [UltraEditBench on HuggingFace](https://huggingface.co/datasets/XiaojieGu/UltraEditBench).
+-->
 
 
 
