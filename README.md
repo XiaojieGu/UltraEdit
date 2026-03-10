@@ -27,7 +27,7 @@
 
 If you need to use locate-then-edit methods, we provide precomputed covariance matrices on Hugging Face for several models: [GPT-J 6B](https://huggingface.co/XiaojieGu/gpt-j-6b_CovarianceMatrix), [Qwen2.5-7B-Instruct](https://huggingface.co/XiaojieGu/Qwen2.5-7B-Instruct_CovarianceMatrix), [Mistral-7B-v0.3](https://huggingface.co/XiaojieGu/Mistral-7B-v0.3_CovarianceMatrix), [LLaMA-3-8B-Instruct](https://huggingface.co/XiaojieGu/Llama-3-8B-Instruct_CovarianceMatrix), and [LLaMA-2-7B-hf](https://huggingface.co/XiaojieGu/Llama-2-7b-hf_CovarianceMatrix). 
 
-## 🚀 Setup
+## Setup
 
 Create the environment and install dependencies:
 
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 ```
 💡 If you want to try editing a Mistral-7B model, even a **24GB consumer GPU** is enough — model editing for everyone!
 
-## 🧪 Run
+## Run
 
 Run the main experiment with:
 
@@ -60,7 +60,7 @@ python main.py dataset=zsre model=mistral-7b editor=ultraedit num_seq=200 \ # Nu
 
 
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 Our work builds upon several excellent model editing frameworks. We sincerely thank the authors of [RLEdit](https://github.com/zhrli324/RLEdit) for their valuable contributions to the field.
 
@@ -77,12 +77,12 @@ Our work builds upon several excellent model editing frameworks. We sincerely th
 
 
 
-## 📫 Contact
+## Contact
 
-For any inquiries or possible collaboration, feel free to reach out at **peettherapynoys@gmail.com**
+For any inquiries or possible collaboration, please reach out at **peettherapynoys@gmail.com**
 
 
-## 📑 Citation
+## Citation
 If you find UltraEdit useful for your research and applications, please cite using this BibTeX:
 ```bibtex
 @misc{gu2025ultraedittrainingsubjectmemoryfree,
