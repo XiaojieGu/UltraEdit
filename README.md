@@ -17,7 +17,7 @@
 
 
 
-## 📦 Data & Model Preparation
+## Data & Model Preparation
 
 1️⃣ Download the files from [Google Drive](https://drive.google.com/drive/folders/1wsxG5Ybf6hT9QUlccvzTuJSfL_TFNyKQ?usp=sharing) and place them under `UltraEdit/data/raw`.
 
