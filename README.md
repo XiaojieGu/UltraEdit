@@ -85,13 +85,13 @@ For any inquiries or possible collaboration, please reach out at **peettherapyno
 ## Citation
 If you find UltraEdit useful for your research and applications, please cite using this BibTeX:
 ```bibtex
-@misc{gu2025ultraedittrainingsubjectmemoryfree,
-      title={UltraEdit: Training-, Subject-, and Memory-Free Lifelong Editing in Language Models}, 
-      author={Xiaojie Gu and Ziying Huang and Jia-Chen Gu and Kai Zhang},
-      year={2025},
-      eprint={2505.14679},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2505.14679}, 
+@article{
+gu2026ultraedit,
+title={UltraEdit: Training-, Subject-, and Memory-Free Lifelong Editing in Language Models},
+author={Xiaojie Gu and Ziying Huang and Jia-Chen Gu and Kai Zhang},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2026},
+url={https://openreview.net/forum?id=GoJLp3BlRV}
 }
 ```
