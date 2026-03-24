@@ -79,7 +79,7 @@ Our work builds upon several excellent model editing frameworks. We sincerely th
 
 ## Contact
 
-For any inquiries or possible collaboration, please reach out at **peettherapynoys@gmail.com**
+For any inquiries, please reach out at **peettherapynoys@gmail.com**
 
 
 ## Citation
