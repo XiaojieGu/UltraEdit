@@ -8,10 +8,9 @@
 
 
 ## News
-* **`2026.04`** We proposed [SA-MCQ](https://github.com/XiaojieGu/SA-MCQ), a new evaluation method for model editing from a practical application perspective, accepted by ACL'26 Findings.
-* **`2026.03`** *UltraEdit* is accepted by [TMLR](https://openreview.net/forum?id=GoJLp3BlRV).
+* **`2026.04`** We proposed [SA-MCQ](https://github.com/XiaojieGu/SA-MCQ), a new evaluation method for model editing from a practical application perspective, accepted by [ACL'26 Findings](https://arxiv.org/pdf/2604.05995).
+* **`2026.03`** UltraEdit is accepted by [TMLR](https://openreview.net/forum?id=GoJLp3BlRV).
 * **`2025.05`** We release our paper *UltraEdit: Training-, Subject-, and Memory-Free Lifelong Editing in Language Models* — 📖 [UltraEdit on arXiv](https://arxiv.org/pdf/2505.14679) | 🤗 [UltraEditBench on HuggingFace](https://huggingface.co/datasets/XiaojieGu/UltraEditBench).
-
 
 
 
